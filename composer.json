@@ -1,0 +1,25 @@
+{
+	"name" : "orm-backend/complex",
+	"type" : "project",
+	"description" : "The application that allows to calculate complex numbers",
+	"authors" : [{
+			"name" : "Vitaliy Kovalenko"
+		}
+	],
+	"require" : {
+		"php" : "^7.4|^8.0"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^9.3.3"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Math\\" : "src"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"Tests\\" : "tests"
+		}
+	}
+}
